@@ -1,0 +1,234 @@
+{% extends "layout/base.html" %}
+{% load static %}
+
+{%block content%}
+<div class="flex mt-4 w-full h-[500px] justify-center  relative">
+    <div class="md:w-2/5 w-full flex flex-col h-full gap-8 justify-center items-center md:justify-start ">
+        <h2 class="md:text-7xl text-5xl">Lessons and insights <span class="text-[#4CAF4F]">from 8 years</span></h2>
+        <p class="text-[#717171]">Where to grow your business as a photographer: site or social media?</p>
+        <button
+            class="bg-[#4CAF4F] h-[40px] w-[91px] py-[5px] text-center text-[#fff] rounded-md hover:bg-[#43A046]">Register</button>
+    </div>
+    <div class="w-1/2 flex justify-center h-full hidden md:block">
+        <img src="{% static 'img/illustration.png' %}" alt="hero" class="h-[407px] w-[391px]" />
+    </div>
+    <div class="w-full h-[%5] absolute bottom-5 flex justify-center items-center gap-2">
+        <span class="bg-[#4CAF4F] p-1 rounded-full h-[10px] w-[10px]"></span>
+        <span class="bg-[#A5D6A7] p-1 rounded-full h-[10px] w-[10px]"></span>
+        <span class="bg-[#A5D6A7] p-1 rounded-full h-[10px] w-[10px]"></span>
+    </div>
+</div>
+<section class="w-full flex flex-col justify-center items-center mt-4 gap-4 md:gap-6 md:h-[190px] h-[250px]  ">
+    <h3 class="text-[#4D4D4D] font-bold text-4xl">Our Clients</h3>
+    <p class="text-[#717171] p-2 md:p-0">We have been working with some Fortune 500+ clients</p>
+    <div >
+        <ul class="flex justify-center items-center md:gap-20 md:shrink-0 flex-wrap gap-3 md:flex-nowrap">
+            <li>
+                <img src="{% static 'img/Logo.png' %}" loading="lazy" alt="company-1" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-1.png' %}" loading="lazy" alt="company-2" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-2.png' %}" loading="lazy" alt="company-3" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-3.png' %}" loading="lazy" alt="company-4" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-4.png' %}" loading="lazy" alt="company-5" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-5.png' %}" loading="lazy" alt="company-6" />
+            </li>
+            <li>
+                <img src="{% static 'img/Logo-6.png' %}" loading="lazy" alt="company-7" />
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="w-full md:h-[417px]h-auto mt-5  flex flex-col gap-4 ">
+    <h3 class="text-[#4D4D4D] font-bold text-3xl text-center md:max-w-[40%]  md:m-0 md:m-auto w-full">Manage your entire community in a
+        single system</h3>
+    <p class="text-[#717171] text-sm m-0 m-auto max-w-[40%] text-center ">Who is Nextcent suitable for? </p>
+    <div class="flex items-center justify-center md:gap-20 flex-col md:flex-row">
+        <div class="w-[299px] h-[260px] flex flex-col justify-center items-center shadow-xl max-w-[90%]">
+            <h4 class="text-[#4D4D4D] font-bold text-xl ">Membership Organisations</h4>
+            <p class="text-[#717171] text-sm text-center">Our membership management software provides full automation of
+                membership renewals and payments</p>
+        </div>
+        <div class="w-[299px] h-[260px] flex flex-col justify-center items-center shadow-xl">
+            <h4 class="text-[#4D4D4D] font-bold text-xl">National Associations</h4>
+            <p class="text-[#717171] text-sm text-center">Our membership management software provides full automation of
+                membership renewals and payments</p>
+        </div>
+        <div class="w-[299px] h-[260px] flex flex-col justify-center items-center shadow-xl">
+            <h4 class="text-[#4D4D4D] font-bold text-xl">Clubs And Groups</h4>
+            <p class="text-[#717171] text-sm text-center">Our membership management software provides full automation of
+                membership renewals and payments</p>
+        </div>
+    </div>
+</section>
+
+<article class="w-full  flex justify-center items-center h-[488px] ">
+    <div class="w-2/5 md:block hidden">
+        <img src="{% static 'img/frame-35.png' %}" class="h-[443px]" loading="lazy" alt="info-for-user" />
+    </div>
+    <div class="md:w-2/5 flex flex-col gap-4 w-full p-2 md:p-0">
+        <h3 class="text-[#4D4D4D] font-bold text-2xl ">The unseen of spending three years at Pixelgrade</h3>
+        <p class="text-[#717171] text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo
+            ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta.
+            Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar,
+            aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+        <button
+            class="bg-[#4CAF4F] h-[40px] w-[131px] py-[5px] text-center text-[#fff] rounded-md hover:bg-[#43A046]">Learn
+            More</button>
+    </div>
+</article>
+
+<article class="w-full md:h-[288px] h-[300px] flex justify-center items-center  md:flex-row flex-col p-2 md:p-0">
+    <div class="flex flex-col gap-3 md:w-2/5 w-full">
+        <h4 class="md:text-4xl font-bold text-[#4D4D4D] text-3xl">Helping a local <span class="text-[#4CAF4F] "> business reinvent
+                itself</span></h4>
+        <span class="text-[#18191F] text-sm">We reached here with our hard work and dedication</span>
+    </div>
+    <div class="md:w-2/5 w-full flex items-center justify-center  flex-col md:gap-5 max-w-[500px] gap-4">
+        <div class="flex w-full md:gap-10 gap-4">
+            <div class="flex gap-3">
+                <img src="{% static 'img/icon-1.png' %}" loading="lazy" class="w-[48px] h-[48px]"
+                    alt="icon-info-for-user1" />
+                <div class="flex flex-col">
+                    <p class="text-[#4D4D4D] font-bold">2,245,341</p>
+                    <span class="text-[#717171] text-sm">Members</span>
+                </div>
+            </div>
+            <div class="flex gap-3">
+                <img src="{% static 'img/icon-3.png' %}" loading="lazy" class="w-[48px] h-[48px]"
+                    alt="icon-info-for-user2" />
+                <div class="flex flex-col">
+                    <p class="text-[#4D4D4D] font-bold">46,328</p>
+                    <span class="text-[#717171] text-sm">Clubs</span>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex md:gap-10 gap-4">
+            <div class="flex gap-3">
+                <img src="{% static 'img/icon-2.png' %}" loading="lazy" class="w-[48px] h-[48px]"
+                    alt="icon-info-for-user3" />
+                <div class="flex flex-col ">
+                    <p class="text-[#4D4D4D] font-bold">828,867</p>
+                    <span class="text-[#717171] text-sm">Event Bookings</span>
+                </div>
+            </div>
+            <div class="flex gap-3">
+                <img src="{% static 'img/icon-4.png' %}" loading="lazy" class="w-[48px] h-[48px]"
+                    alt="icon-info-for-user4" />
+                <div class="flex flex-col ">
+                    <p class="text-[#4D4D4D] font-bold">1,926,436</p>
+                    <span class="text-[#717171] text-sm">Payments</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<section class="md:h-[390px] h-[600px] w-full flex justify-end  md:mt-0 mt-4  md:p-0 p-2">
+    <div class="md:w-2/3 flex flex-col gap-3 w-full" >
+        <p class="text-[#717171]">
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt
+            ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
+            molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
+            Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis
+            vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
+            Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim
+            finibus ac sit amet magna.
+        </p>
+        <span class="text-[#4CAF4F]">Tim Smith</span>
+        <span class="text-[#89939E] font-bold">British Dragon Boat Racing Association</span>
+        <div class="flex justify-center items center md:gap-24">
+            <ul class="flex justify-center items-center gap-8 md:flex hidden">
+                <li>
+                    <img src="{% static 'img/Logo.png' %}" loading="lazy" alt="company-1" class="h-[48px] " />
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-1.png' %}" loading="lazy" alt="company-2"  class="h-[48px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-2.png' %}" loading="lazy" alt="company-3"  class="h-[48px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-3.png' %}" loading="lazy" alt="company-4"  class="h-[48px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-4.png' %}" loading="lazy" alt="company-5"  class="h-[48px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-5.png' %}" loading="lazy" alt="company-6" class="h-[48px] " />
+                </li>
+                <li>
+                    <img src="{% static 'img/Logo-6.png' %}" loading="lazy" alt="company-7"  class="h-[48px] "/>
+                </li>
+            </ul>
+            <button class="text-[#4CAF4F] font-bold">
+                Meet all customers ->
+            </button>
+        </div>
+    </div>
+</section>
+<div class="w-full h-[202px] flex flex-col items-center gap-10 ">
+    <h4 class="text-[#263238] md:text-5xl text-3xl md:w-[40%] w-full text-center font-semibold">Pellentesque suscipit fringilla libero eu.</h4>
+    <button class="bg-[#4CAF4F] h-[40px] w-[131px] py-[5px] text-center text-[#fff] rounded-md hover:bg-[#43A046]">
+        Get a Demo ->
+    </button>
+</div>
+<footer class="md:h-[320px] w-full bg-[#263238] flex md:flex-row flex-col h-600px gap-4 md:gap-0">
+    <div class="md:w-2/5 md:h-full w-full h-2/5">
+        <div class=" flex flex-col w-full  justify-center items-center h-full gap-4">
+            <h4 class="text-[#ffff] w-max  text-4xl">
+                Nextcent
+            </h4>
+            <p class="font-light text-[#F5F7FA] w-1/2 ">Copyright © 2020 Nexcent ltd.</p>
+            <p class="font-light text-[#F5F7FA] w-1/2 ">All rights reserved</p>
+            <div class="list-none flex gap-8  items-center w-1/2  p-1 ">
+                <li>
+                    <img src="{% static 'img/ig.png' %}" loading="lazy" alt="ignstagram logo"  class="h-[17px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/ball.png' %}" loading="lazy" alt="Ball logo"  class="h-[17px] "/>
+                </li>
+                <li>
+                    <img src="{% static 'img/twitter.png' %}" loading="lazy" alt="Twitter logo" class="h-[17px] " />
+                </li>
+                <li>
+                    <img src="{% static 'img/Youtube.png' %}" loading="lazy" alt="Youtube logo"  class="h-[17px] "/>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="md:w-[20%] w-full h-[20%] md:h-full flex flex-col justify-center items-center gap-4 ">
+        <p class="font-bold text-[#fff] text-xl font-semibold">Company</p>
+        <ul class="font-light text-[#F5F7FA] flex flex-col gap-2">
+            <li>About us</li>
+            <li>Blog</li>
+            <li>Contact us</li>
+            <li>Pricing</li>
+            <li>Testimonials</li>
+        </ul>
+    </div>
+    <div class="md:w-[20%] w-full h-[20%] md:h-full flex flex-col justify-center items-center gap-4">
+        <p class="font-bold text-[#fff] text-xl font-semibold">Support</p>
+        <ul class="font-light text-[#F5F7FA] flex flex-col gap-2">
+            <li>Help center</li>
+            <li>Terms of service</li>
+            <li>Legal</li>
+            <li>Privacy policy</li>
+            <li>Status</li>
+        </ul>
+    </div>
+    <div class="w-[20%] flex flex-col  items-center gap-4 mt-[5%] md:block hidden">
+        <p class="font-bold text-[#fff] text-xl font-semibold">Stay up to date</p>
+        <input type="text" class="bg-[#F5F7FA] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your email address" required />
+
+    </div>
+</footer>
+{% endblock content%}
